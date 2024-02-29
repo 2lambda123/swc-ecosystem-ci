@@ -1,0 +1,413 @@
+repo_name: 2lambda123/swc-ecosystem-ci
+report_id: 2adc5a16d83bab61cfebe76dfb2e2f6c
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:13:18+00:00'
+requested_by: 2lambda123
+provider: github
+branch: main
+detected_tools_count: 36
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/crawler/go.mod
+  detection_source: crawler/go.mod
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci
+  detection_source: Repo Metadata
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/crawler/go.sum
+  detection_source: crawler/go.mod
+- name: cascadia
+  description: CSS selector library in Go
+  package_url: https://pkg.go.dev/github.com/andybalholm/cascadia
+  version: 1.1.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/crawler/go.sum
+  detection_source: crawler/go.mod
+- name: glob
+  description: Go glob
+  package_url: https://pkg.go.dev/github.com/gobwas/glob
+  version: 0.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/crawler/go.sum
+  detection_source: crawler/go.mod
+- name: go-humanize
+  description: Go Humans!
+  package_url: https://pkg.go.dev/github.com/dustin/go-humanize
+  version: 1.0.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/crawler/go.sum
+  detection_source: crawler/go.mod
+- name: goquery
+  description: A little like that j-thing, only in Go
+  package_url: https://pkg.go.dev/github.com/PuerkitoBio/goquery
+  version: 1.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/crawler/go.sum
+  detection_source: crawler/go.mod
+- name: groupcache
+  description: Groupcache is a caching and cache-filling library
+  package_url: https://pkg.go.dev/github.com/golang/groupcache
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/crawler/go.sum
+  detection_source: crawler/go.mod
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/crawler/go.sum
+  detection_source: crawler/go.mod
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/crawler/go.mod
+  detection_source: crawler/go.mod
+- name: robotstxt
+  description: 'The robots.txt exclusion protocol implementation for Go language #golang'
+  package_url: https://pkg.go.dev/github.com/temoto/robotstxt
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/crawler/go.sum
+  detection_source: crawler/go.mod
+- name: saintfish/chardet
+  description: Charset detector library for golang derived from ICU
+  package_url: https://pkg.go.dev/github.com/saintfish/chardet
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/crawler/go.sum
+  detection_source: crawler/go.mod
+- name: sanitize
+  description: Package sanitize provides functions for sanitizing text in golang strings
+  package_url: https://pkg.go.dev/github.com/kennygrant/sanitize
+  version: 1.2.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/crawler/go.sum
+  detection_source: crawler/go.mod
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/crawler/go.sum
+  detection_source: crawler/go.mod
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 6.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: cac
+  description: Simple yet powerful framework for building command-line apps
+  package_url: https://www.npmjs.com/cac
+  version: 6.7.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18731/default_896e971e78d35d9228342aa32100298402d2473b.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: execa
+  description: Process execution for humans
+  package_url: https://www.npmjs.com/execa
+  version: 8.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 14.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 7.5.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
+- name: tsx
+  description: TypeScript Execute
+  package_url: https://www.npmjs.com/tsx
+  version: 3.13.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/2lambda123/swc-ecosystem-ci/blob/main/package.json
+  detection_source: package.json
