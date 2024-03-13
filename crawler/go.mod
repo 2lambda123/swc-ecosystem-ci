@@ -3,14 +3,17 @@ module github.com/swc-project/swc-ecosystem-ci/crawler
 go 1.21.1
 
 require (
+	github.com/dustin/go-humanize v1.0.1
+	github.com/gocolly/colly/v2 v2.1.0
+)
+
+require (
 	github.com/PuerkitoBio/goquery v1.8.1 // indirect
 	github.com/andybalholm/cascadia v1.3.2 // indirect
 	github.com/antchfx/htmlquery v1.3.0 // indirect
 	github.com/antchfx/xmlquery v1.3.18 // indirect
 	github.com/antchfx/xpath v1.2.4 // indirect
-	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
-	github.com/gocolly/colly/v2 v2.1.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/kennygrant/sanitize v1.2.4 // indirect
@@ -19,5 +22,5 @@ require (
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 )
